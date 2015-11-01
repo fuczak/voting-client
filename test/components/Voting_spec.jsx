@@ -3,7 +3,7 @@ import { expect } from 'chai';
 import React from 'react/addons';
 import { List } from 'immutable';
 import ReactDOM from 'react-dom';
-import Voting from '../../src/components/Voting';
+import { Voting } from '../../src/components/Voting';
 
 const { renderIntoDocument, scryRenderedDOMComponentsWithTag, Simulate } = React.addons.TestUtils;
 
