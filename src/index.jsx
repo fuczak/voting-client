@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Router, { Route } from 'react-router';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import io from 'socket.io-client';
+import io from 'socketa.io-client';
 import reducer from './reducer';
 import App from './components/App';
 import { VotingContainer } from './components/Voting';
